@@ -16,7 +16,7 @@ starterBtn.addEventListener("click", function(){
 
 
 
-/*mainPage.addEventListener("animationend", preGame)
+mainPage.addEventListener("animationend", preGame)
 
 
 async function preGame(){
@@ -81,7 +81,7 @@ let options = [{
 
 
 //console.log(Math.floor(Math.random()*3));
-*/
+
 
 
 
