@@ -70,7 +70,7 @@ button:hover{
 }
 
 #optionContainer{
-    display: flex;
+    display: none;
     width: 50%;
     height: fit-content;
     box-sizing: border-box;

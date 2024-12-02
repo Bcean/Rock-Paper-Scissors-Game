@@ -24,8 +24,9 @@ async function preGame(){
     for (let i = 1; i < 5; i++){
         await new Promise(resolve => {//timeout forces weird execution so async wait causes loop to execute then code to sequentially execute after
             setTimeout(() => {
-                document.querySelector("#optionContainer").style.display = "flex";
+               
                 countDown.innerText = textCountDown;
+                document.querySelector("#optionContainer").style.display = "flex";
                 textCountDown-=1;
                 mainPage.addEventListener("click", optionSave)
                 console.log(i)
